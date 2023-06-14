@@ -18,8 +18,7 @@ void main() async {
   Bloc.observer = MyBlocObserver();
   await CacheHelper.intial();
   DioHelper.intial();
-  // 3434234234
-  print('dfdf');
+
   Widget StartScreen;
   dynamic Onboarding = CacheHelper.GetData(
     key: 'onboarding',
