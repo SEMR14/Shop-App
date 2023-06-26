@@ -83,7 +83,7 @@ class MyApp extends StatelessWidget {
         ),
         debugShowCheckedModeBanner: false,
         home: StartPage,
-        //home: Onboarding_page(),
+        //  home: Onboarding_page(),
         routes: {
           Product_Describtion_Screen.routeName: (ctx) =>
               Product_Describtion_Screen(),
